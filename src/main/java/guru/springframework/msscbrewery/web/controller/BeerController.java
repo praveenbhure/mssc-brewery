@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import guru.springframework.msscbrewery.services.BeerService;
 import guru.springframework.msscbrewery.web.model.BeerDto;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @RequestMapping("/api/v1/beer")
 @RestController
 public class BeerController {
