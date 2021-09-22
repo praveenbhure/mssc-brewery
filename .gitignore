@@ -37,6 +37,10 @@ local.properties
 .loadpath
 .factorypath
 /src/main/resources/rebel.xml
+/target/
+*/target/**
+**/META-INF/
+!.mvn/wrapper/maven-wrapper.jar
 
 # External tool builders
 .externalToolBuilders/**
